@@ -16,7 +16,8 @@ const port = 4000;
 
 
 const bcryptSalt = bcrypt.genSaltSync(10);
-const jwtSecret = process.env.JWT_SECRET;
+const jwtSecret = 'dbfoaiefiqwjbcifpqiuefpu';
+// const jwtSecret = process.env.JWT_SECRET;
 
 app.use(express.json());
 app.use(cookieParser());
